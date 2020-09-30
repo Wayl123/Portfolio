@@ -1,5 +1,4 @@
-# portfolio-project-Wayl123
-portfolio-project-Wayl123 created by GitHub Classroom
+# Portfolio Project
 
 ### Project Description
 Front-end portfolio project that is built from scratch
