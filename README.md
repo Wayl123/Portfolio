@@ -13,9 +13,9 @@ Basically a landing page, show short description of myself.
 More detail regarding myself and my background, probably will put stuff like education background here.
 <img src="./public/images/prototype/about.jpg">
 
-##### Work Page
+##### Project Page
 Page displaying all the project that have been work on before. Show image of what the project looks like which can be clicked into to show more detail of the project.
-<img src="./public/images/prototype/work.jpg">
+<img src="./public/images/prototype/project.jpg">
 
 ##### Contact Page
 For contacting me. Should include validation for the form.
