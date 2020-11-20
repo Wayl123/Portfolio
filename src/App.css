@@ -1,7 +1,7 @@
 /* App */
 @font-face {
   font-family: STHeiti;
-  src: url("./fonts/STHeiti.woff");
+  src: url("./data/fonts/STHeiti.woff");
 }
 
 .App {
@@ -22,11 +22,12 @@
   padding: 0 2rem;
 }
 
-/* Home */
-.Home {
+/* General styles */
+.content-container {
   height: 90vh;
 }
 
+/* Home */
 .home-container {
   width: 90vw;
   height: 75vh;
@@ -38,4 +39,20 @@
 .home-container h1 {
   font-family: STHeiti;
   font-weight: bold;
+}
+
+/* About */
+
+.about-container {
+  color: #FFFFFF;
+  height: 75vh;
+  width: 40%;
+}
+
+.skill-list {
+  height: 10rem;
+}
+
+.about-image {
+  width: 20%;
 }
