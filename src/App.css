@@ -56,3 +56,24 @@
 .about-image {
   width: 20%;
 }
+
+/* Project */
+.project-container {
+  width: 90%
+}
+
+.project-card {
+  min-width: 100%
+}
+
+@media screen and (min-width: 768px) {
+  .project-card {
+    min-width: 50%
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .project-card {
+    min-width: 33%
+  }
+}
