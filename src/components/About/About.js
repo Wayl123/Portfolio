@@ -14,7 +14,7 @@ export default class About extends Component {
             {aboutContent.skills}
           </div>
         </div>
-        <div className="about-image">
+        <div className="about-image overflow-hidden">
           Design goes here
         </div>
       </div>

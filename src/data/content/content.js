@@ -53,3 +53,25 @@ export const aboutContent = {
     </ul>
   )
 }
+export const projectContent = [
+  {
+    id: 1,
+    img: "",
+    name: "Placeholder Name"
+  },
+  {
+    id: 2,
+    img: "",
+    name: "Placeholder Name"
+  },
+  {
+    id: 3,
+    img: "",
+    name: "Placeholder Name"
+  },
+  {
+    id: 4,
+    img: "",
+    name: "Placeholder Name"
+  }
+]
