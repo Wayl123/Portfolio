@@ -4,20 +4,24 @@ import Nav from './components/Nav'
 import Home from './components/Home/Home'
 import About from './components/About/About'
 import Project from './components/Project/Project'
+import Contact from './components/Contact/Contact'
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Nav />
+        <Nav/>
         <Route exact path="/">
-          <Home />
+          <Home/>
         </Route>
         <Route exact path="/About">
-          <About />
+          <About/>
         </Route>
         <Route exact path="/Project">
-          <Project />
+          <Project/>
+        </Route>
+        <Route exact path="/Contact">
+          <Contact/>
         </Route>
       </Router>
     </div>
