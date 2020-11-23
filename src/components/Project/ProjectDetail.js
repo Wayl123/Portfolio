@@ -12,7 +12,7 @@ export default class ProjectDetail extends Component {
       name: "",
       desc: "",
       links: [],
-      code: []
+      codes: []
     };
   }
 
@@ -25,8 +25,6 @@ export default class ProjectDetail extends Component {
 
     const project = projectContent.find(proj => proj.id == selectId);
 
-    console.log(project);
-
     this.setState({
       id: project.id,
       thumbnail: project.thumbnail,
@@ -34,12 +32,12 @@ export default class ProjectDetail extends Component {
       name: project.name,
       desc: project.desc,
       links: project.links,
-      code: project.code
+      codes: project.codes
     })
   }
   
   render() {
-    const {name} = this.state
+    const {thumbnail, img, name, desc, links, codes} = this.state
 
     return (
       <div>

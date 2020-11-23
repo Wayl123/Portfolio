@@ -11,7 +11,7 @@ function displayProject(project) {
     name = {project.name}
     desc = {project.desc}
     links = {project.links}
-    code = {project.code}
+    codes = {project.codes}
   />
 }
 

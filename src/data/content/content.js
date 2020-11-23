@@ -78,7 +78,7 @@ export const projectContent = [
       {name: "Deployed Site", link: "https://wayl-yelpcamp.herokuapp.com"},
       {name: "Udemy Certificate", link: "http://ude.my/UC-4YBZIGQX"}
     ],
-    code: [
+    codes: [
       "HTML",
       "CSS",
       "Javascript",
@@ -95,7 +95,7 @@ export const projectContent = [
     name: "Placeholder Name",
     desc: "",
     links: [],
-    code: []
+    codes: []
   },
   {
     id: 3,
@@ -104,7 +104,7 @@ export const projectContent = [
     name: "Placeholder Name",
     desc: "",
     links: [],
-    code: []
+    codes: []
   },
   {
     id: 4,
@@ -113,6 +113,6 @@ export const projectContent = [
     name: "Placeholder Name",
     desc: "",
     links: [],
-    code: []
+    codes: []
   }
 ]
