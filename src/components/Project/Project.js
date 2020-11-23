@@ -5,8 +5,13 @@ import {projectContent} from '../../data/content/content'
 function displayProject(project) {
   return <ProjectItem
     key = {project.id}
+    id = {project.id}
+    thumbnail = {project.thumbnail}
     img = {project.img}
     name = {project.name}
+    desc = {project.desc}
+    links = {project.links}
+    code = {project.code}
   />
 }
 
