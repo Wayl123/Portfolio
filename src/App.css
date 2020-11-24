@@ -76,19 +76,43 @@
 /* Project */
 
 .project-card {
-  min-width: 100%;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
   .project-card {
-    min-width: 50%;
+    width: 50%;
   }
 }
 
 @media screen and (min-width: 992px) {
   .project-card {
-    min-width: 33%;
+    width: 33%;
   }
+}
+
+/* Project Detail */
+.proj {
+  color: #FFFFFF;
+}
+
+.proj-head {
+  font-family: STHeiti;
+  margin: 2rem 0;
+  font-weight: bold;
+}
+
+.proj-desc p {
+  margin: 0.2rem 0;
+}
+
+.proj-link a {
+  color: #FFFFFF;
+}
+
+.proj-link a:hover {
+  color: #888888;
+  text-decoration: none;
 }
 
 /* Contact */
