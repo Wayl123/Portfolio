@@ -24,7 +24,7 @@ export default class Contact extends Component {
               <textarea placeholder="Enter your message" id="msg" required/><br/>
             </label><br/>
             <p>* = required section</p>
-            <button type="submit"><img src="images/email_icon.png"/></button>
+            <button type="submit"><img src="images/email_icon.png" alt=""/></button>
           </form>
         </div>
       </div>

@@ -56,23 +56,25 @@ export const aboutContent = {
 export const projectContent = [
   {
     id: 1,
-    thumbnail: "images/projects/YelpCamp/thumbnail.PNG",
-    img: [
-      "images/projects/YelpCamp/img1.PNG",
-      "images/projects/YelpCamp/img2.PNG"
+    thumbnail: {src: "images/projects/YelpCamp/thumbnail.PNG", caption: "1"},
+    images: [
+      {src: "images/projects/YelpCamp/img1.PNG", caption: "2"},
+      {src: "images/projects/YelpCamp/img2.PNG", caption: "3"}
     ],
     name: "YelpCamp",
-    desc: `
-    YelpCamp app made during Oct. 11, 2019 according to Udemy web development bootcamp course.\n
-    The goal of this project is to make a full stack website.\n
-    This website include user login and authentication that checks if you are logged in and what user you are logged in as.\n
-    If you are not logged in you cannot add new campground but will instead be redirected to login page.\n
-    Register will add new user to database and login will check if the entered user matches one in the database.\n
-    User can add new campground, add new comment to existing campground, edit their campground and comment, delete their campground and comment.\n
-    \n
-    Since this course was done quite a while ago, some styling may not work but it seems the all the functions still works.\n
-    Since Oct. 12, 2020 this course has been completely redone so the code may appear different from the code present in the current course.\n
-    `,
+    desc: (
+      <div>
+        <p>YelpCamp app made during Oct. 11, 2019 according to Udemy web development bootcamp course.</p>
+        <p>The goal of this project is to make a full stack website.</p>
+        <p>This website include user login and authentication that checks if you are logged in and what user you are logged in as.</p>
+        <p>If you are not logged in you cannot add new campground but will instead be redirected to login page.</p>
+        <p>Register will add new user to database and login will check if the entered user matches one in the database.</p>
+        <p>User can add new campground, add new comment to existing campground, edit their campground and comment, delete their campground and comment.</p>
+        <br/>
+        <p>Since this course was done quite a while ago, some styling may not work but it seems the all the functions still works.</p>
+        <p>Since Oct. 12, 2020 this course has been completely redone so the code may appear different from the code present in the current course.</p>
+      </div>
+    ),
     links: [
       {name: "Github", link: "https://github.com/Wayl123/YelpCamp"},
       {name: "Deployed Site", link: "https://wayl-yelpcamp.herokuapp.com"},
@@ -91,7 +93,7 @@ export const projectContent = [
   {
     id: 2,
     thumbnail: "",
-    img: [],
+    images: [],
     name: "Placeholder Name",
     desc: "",
     links: [],
@@ -100,7 +102,7 @@ export const projectContent = [
   {
     id: 3,
     thumbnail: "",
-    img: [],
+    images: [],
     name: "Placeholder Name",
     desc: "",
     links: [],
@@ -109,7 +111,7 @@ export const projectContent = [
   {
     id: 4,
     thumbnail: "",
-    img: [],
+    images: [],
     name: "Placeholder Name",
     desc: "",
     links: [],

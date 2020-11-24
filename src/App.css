@@ -91,6 +91,30 @@
   }
 }
 
+/* Project Detail */
+.proj {
+  color: #FFFFFF;
+}
+
+.proj-head {
+  font-family: STHeiti;
+  margin: 2rem 0;
+  font-weight: bold;
+}
+
+.proj-desc p {
+  margin: 0.2rem 0;
+}
+
+.proj-link a {
+  color: #FFFFFF;
+}
+
+.proj-link a:hover {
+  color: #888888;
+  text-decoration: none;
+}
+
 /* Contact */
 .contact-form {
   color: #FFFFFF;

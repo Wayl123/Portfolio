@@ -7,7 +7,7 @@ export default class ProjectItem extends Component {
       <div className="project-card p-3">
         <div className="card">
           <Link key={this.props.id} to={"/Project/" + this.props.id} className="img-wrap">
-            <img src={this.props.thumbnail} className="card-img image"/> 
+            <img src={this.props.thumbnail.src} className="card-img image" alt=""/> 
           </Link>
           <div className="card-body border-top text-center">
             <h5 className="card-title">{this.props.name}</h5>
