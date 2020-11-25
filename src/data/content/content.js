@@ -125,20 +125,68 @@ export const projectContent = [
   },
   {
     id: 3,
-    thumbnail: "",
-    images: [],
-    name: "Placeholder Name",
-    desc: "",
-    links: [],
-    codes: []
+    thumbnail: {src: "images/projects/PlanetWine/thumbnail.PNG", caption: "Home page or the landing page."},
+    images: [
+      {src: "images/projects/PlanetWine/img1.PNG", caption: "Home page tablet size and below."},
+      {src: "images/projects/PlanetWine/img2.PNG", caption: "Shop page."},
+      {src: "images/projects/PlanetWine/img3.PNG", caption: "Shop page image modal."},
+      {src: "images/projects/PlanetWine/img4.PNG", caption: "Gallery page."},
+      {src: "images/projects/PlanetWine/img5.PNG", caption: "Cart page."},
+      {src: "images/projects/PlanetWine/img6.PNG", caption: "Checkout page form."},
+      {src: "images/projects/PlanetWine/img7.PNG", caption: "Login page."}
+    ],
+    name: "PlanetWine",
+    desc: (
+      <div>
+        <p>First big group project of the BCIT software systems developer course built at around Oct. 30, 2020. Done in group of five.</p>
+        <p>Although this website is front-end only we use localstorage to pass data between page.</p>
+        <p>Product added from the shop page will update in the cart page and checkout page, same for editting the product in the cart page.</p>
+        <p>The cart icon have number display on them to show how much product have been added to cart.</p>
+        <p>Checkout will clear the item when the shipping information is successfully submitted.</p>
+        <p>Images in shop and gallery page can be clicked to display an image modal.</p>
+        <p>Images used in gallery page is referenced in the README file.</p>
+        <p>Login, register, contact, and checkout form have some kind of validation, but it varies due to being worked on by different group member</p>
+        <p>We didn't get around to actually making the register and login do anything.</p>
+        <p>Contact also doesn't send anything.</p>
+        <p>Links in the footer also don't go anywhere.</p>
+        <br/>
+        <p>This course is also where I learned to use git and github properly. As this is group project git is used extensively here.</p>
+        <p>I was mostly responsible for the shop page and also help out a bit in other things like adding the number on the cart icon.</p>
+      </div>
+    ),
+    links: [
+      {name: "Github", link: "https://github.com/Wayl123/PlanetWine"},
+    ],
+    codes: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Bootstrap",
+      "SASS",
+      "JQuery",
+      "JSON",
+      "Git/Github"
+    ]
   },
   {
     id: 4,
-    thumbnail: "",
+    thumbnail: {src: "images/projects/Portfolio/thumbnail.PNG", caption: "Home page or the landing page."},
     images: [],
-    name: "Placeholder Name",
-    desc: "",
+    name: "Portfolio",
+    desc: (
+      <div>
+        <p>This website basically. This is the front-end framework project of BCIT software systems developer course.</p>
+        <p>More information will be fill in as this project get completed.</p>
+      </div>
+    ),
     links: [],
-    codes: []
+    codes: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Bootstrap",
+      "ReactJS",
+      "Git"
+    ]
   }
 ]
