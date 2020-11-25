@@ -40,9 +40,9 @@ export default class ProjectDetail extends Component {
     const {thumbnail, images, name, desc, links, codes} = this.state;
 
     return (
-      <div className="content-container d-flex justify-content-center align-items-center overflow-auto">
+      <div className="content-container d-flex justify-content-center align-items-start overflow-auto">
         <div className="inner-container">
-          <div id="carouselIndicators" className="carousel slide" data-ride="carousel">
+          <div id="carouselIndicators" className="carousel slide" data-ride="false">
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <img src={"../" + thumbnail.src} alt=""/>
