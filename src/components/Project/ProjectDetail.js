@@ -42,7 +42,7 @@ export default class ProjectDetail extends Component {
     return (
       <div className="content-container d-flex justify-content-center align-items-start overflow-auto">
         <div className="inner-container">
-          <div id="carouselIndicators" className="carousel slide" data-ride="false">
+          <div id="carouselIndicators" className="carousel slide" data-interval="false" data-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <img src={"../" + thumbnail.src} alt=""/>

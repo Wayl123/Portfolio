@@ -6,7 +6,7 @@ export default class Nav extends Component {
     return (
       <div>
         <nav className="navbar navbar-main navbar-expand-md bg-light">
-          <NavLink to="/" exact><h1 className="px-3">Logo</h1></NavLink>
+          <NavLink to="/" exact><img src="images/logo.PNG" className="logo" alt=""/></NavLink>
           
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav"
             aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">

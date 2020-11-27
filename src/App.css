@@ -14,8 +14,8 @@
   height: 10vh;
 }
 
-.navbar h1 {
-  font-family: STHeiti;
+.logo {
+  max-height: 10vh;
 }
 
 .nav-item {
@@ -92,6 +92,26 @@
 }
 
 /* Project Detail */
+.carousel-item {
+  text-align: center;
+}
+
+.carousel-item img {
+  max-width: 100%;
+}
+
+.carousel-caption p {
+  background-color: #373E8D;
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.carousel:hover .carousel-caption p {
+  opacity: 0.8;
+  transition: all 1s ease;
+}
+
+
 .proj {
   color: #FFFFFF;
 }
