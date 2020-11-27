@@ -179,7 +179,9 @@ export const projectContent = [
         <p>More information will be fill in as this project get completed.</p>
       </div>
     ),
-    links: [],
+    links: [
+      {name: "Github", link: "https://github.com/Wayl123/Portfolio"},
+    ],
     codes: [
       "HTML",
       "CSS",
