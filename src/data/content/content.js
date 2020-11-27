@@ -125,15 +125,15 @@ export const projectContent = [
   },
   {
     id: 3,
-    thumbnail: {src: "images/projects/PlanetWine/thumbnail.PNG", caption: "Home page or the landing page."},
+    thumbnail: {src: "images/projects/PlanetWine/thumbnail.PNG", caption: "Home page or the landing page. There is also a popup on this page whenever it is loaded."},
     images: [
-      {src: "images/projects/PlanetWine/img1.PNG", caption: "Home page tablet size and below."},
-      {src: "images/projects/PlanetWine/img2.PNG", caption: "Shop page."},
-      {src: "images/projects/PlanetWine/img3.PNG", caption: "Shop page image modal."},
-      {src: "images/projects/PlanetWine/img4.PNG", caption: "Gallery page."},
-      {src: "images/projects/PlanetWine/img5.PNG", caption: "Cart page."},
-      {src: "images/projects/PlanetWine/img6.PNG", caption: "Checkout page form."},
-      {src: "images/projects/PlanetWine/img7.PNG", caption: "Login page."}
+      {src: "images/projects/PlanetWine/img1.PNG", caption: "Home page tablet size and below. All the navigation item is now listed vertically and teh number on the cart is put beside it."},
+      {src: "images/projects/PlanetWine/img2.PNG", caption: "Shop page. The number added will replace the preceding number and adding 0 removes the item. Validation do apply to ensure only valid number is entered."},
+      {src: "images/projects/PlanetWine/img3.PNG", caption: "Shop page image modal. Example of the image modal on the shop page when image is clicked, gallery page also have similar thing."},
+      {src: "images/projects/PlanetWine/img4.PNG", caption: "Gallery page. Show collection of image, can click on image to see a bigger image of it."},
+      {src: "images/projects/PlanetWine/img5.PNG", caption: "Cart page. Can still modify item numbers here, setting item to 0 will remove it on refresh."},
+      {src: "images/projects/PlanetWine/img6.PNG", caption: "Checkout page form. After having entered a shipping information that pass the validation check, the cart will be cleared."},
+      {src: "images/projects/PlanetWine/img7.PNG", caption: "Login page. This and pages like register and contact have some validation but does not provide much functionality partially due to it being front-end only."}
     ],
     name: "PlanetWine",
     desc: (
@@ -170,7 +170,7 @@ export const projectContent = [
   },
   {
     id: 4,
-    thumbnail: {src: "images/projects/Portfolio/thumbnail.PNG", caption: "Home page or the landing page."},
+    thumbnail: {src: "images/projects/Portfolio/thumbnail.PNG", caption: "Home page or the landing page. Gives a short introduction of myself."},
     images: [],
     name: "Portfolio",
     desc: (
