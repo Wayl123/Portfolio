@@ -5,10 +5,10 @@ export default class Nav extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-main navbar-expand-md bg-light">
+        <nav className="navbar navbar-main navbar-expand-md navbar-light bg-light py-0">
           <NavLink to="/" exact><img src="images/logo.PNG" className="logo" alt=""/></NavLink>
           
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav"
+          <button className="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#main_nav"
             aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>

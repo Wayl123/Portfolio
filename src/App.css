@@ -10,12 +10,11 @@
 
 /* Navigation */
 .navbar {
-  color: #373E8D;
-  height: 10vh;
+  min-height: 10vh;
 }
 
 .logo {
-  max-height: 10vh;
+  max-height: 8vh;
 }
 
 .nav-item {
