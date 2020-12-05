@@ -12,7 +12,8 @@ export default class ProjectDetail extends Component {
       name: "",
       desc: "",
       links: [],
-      codes: []
+      codes: [],
+      date: new Date()
     };
   }
 
@@ -32,12 +33,13 @@ export default class ProjectDetail extends Component {
       name: project.name,
       desc: project.desc,
       links: project.links,
-      codes: project.codes
+      codes: project.codes,
+      date: project.date
     })
   }
   
   render() {
-    const {thumbnail, images, name, desc, links, codes} = this.state;
+    const {thumbnail, images, name, desc, links, codes, date} = this.state;
 
     return (
       <div className="content-container d-flex justify-content-center align-items-start overflow-auto">
@@ -71,6 +73,8 @@ export default class ProjectDetail extends Component {
           <div className="proj">
             <h3 className="proj-head">{name}</h3>
             <div className="proj-desc">{desc}</div>
+            <h5 className="proj-head">Last Updated Date</h5>
+            <p>{`${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}`}</p>
             <h5 className="proj-head">External Links</h5>
             {links.map((link) =>
               <p className="proj-link">{link.name + ": "}<a href={link.link}>Link</a></p>
