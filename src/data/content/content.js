@@ -88,7 +88,8 @@ export const projectContent = [
       "Node",
       "Express",
       "Mongoose"
-    ]
+    ],
+    date: new Date(2019, 10-1, 11)
   },
   {
     id: 2,
@@ -121,7 +122,8 @@ export const projectContent = [
       "Java",
       "Android Studio (XML)",
       "SQL"
-    ]
+    ],
+    date: new Date(2020, 9-1, 2)
   },
   {
     id: 3,
@@ -166,7 +168,8 @@ export const projectContent = [
       "JQuery",
       "JSON",
       "Git/Github"
-    ]
+    ],
+    date: new Date(2020, 10-1, 30)
   },
   {
     id: 4,
@@ -189,6 +192,11 @@ export const projectContent = [
       "Bootstrap",
       "ReactJS",
       "Git"
-    ]
+    ],
+    date: new Date(2020, 12-1, 18)
   }
+]
+export const projectFilter = [
+  {filterName: "Most Recent", filterContent: "1"},
+  {filterName: "Oldest", filterContent: "2"}
 ]

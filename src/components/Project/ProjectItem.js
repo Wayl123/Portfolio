@@ -16,6 +16,9 @@ export default class ProjectItem extends Component {
                 `${code}`
               ) + "..."}
             </p>
+            <p className="card-text">
+              {`Made on: ${this.props.date.getFullYear()}-${this.props.date.getMonth()+1}-${this.props.date.getDate()}`}
+            </p>
           </div>
         </div>
       </div>
