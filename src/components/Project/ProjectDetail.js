@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {projectContent} from '../../data/content/content'
+import { projectContent } from '../../data/content/content'
 
 export default class ProjectDetail extends Component {
   constructor(props) {

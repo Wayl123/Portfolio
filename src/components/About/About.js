@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {aboutContent} from '../../data/content/content'
+import { aboutContent } from '../../data/content/content'
 
 export default class About extends Component {
   render() {
