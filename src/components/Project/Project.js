@@ -1,20 +1,24 @@
 import React, { Component } from 'react'
 import ProjectItem from './ProjectItem'
 import Select from 'react-select'
-import {projectContent, projectFilter} from '../../data/content/content'
+import { projectContent, projectFilter } from '../../data/content/content'
 
 function displayProject(project) {
-  return <ProjectItem
-    key = {project.id}
-    id = {project.id}
-    thumbnail = {project.thumbnail}
-    img = {project.img}
-    name = {project.name}
-    desc = {project.desc}
-    links = {project.links}
-    codes = {project.codes}
-    date = {project.date}
-  />
+  return (
+    <>
+      <ProjectItem
+        key = {project.id}
+        id = {project.id}
+        thumbnail = {project.thumbnail}
+        img = {project.img}
+        name = {project.name}
+        desc = {project.desc}
+        links = {project.links}
+        codes = {project.codes}
+        date = {project.date}
+      />
+    </>
+  )
 }
 
 export default class Project extends Component {
@@ -34,7 +38,6 @@ export default class Project extends Component {
 
   componentDidUpdate(_, prevState) {
     if (this.state.selectedFilter === prevState.selectedFilter) {
-      console.log("here");
       return;
     }
 
