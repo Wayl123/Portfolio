@@ -9,6 +9,9 @@ Front-end portfolio project that is built from scratch using react.
 3. Download the dependency using: `npm install`.
 4. Run the program using: `npm start`.
 
+### Deployment
+https://wayne-portfolio.netlify.app/
+
 ### Prototype
 
 ##### Home Page
