@@ -15,11 +15,13 @@ export const aboutContent = {
           <li>SASS</li>
           <li>Javascript</li>
           <li>JQuery</li>
-          <li>AngularJs</li>
+          <li>ReactJS</li>
+          <li>AngularJS</li>
         </ul>
         <li>Back-end</li>
         <ul>
           <li>Node.js</li>
+          <li>Express</li>
           <li>ASP.NET</li>
           <ul>
             <li>C#</li>
@@ -29,11 +31,28 @@ export const aboutContent = {
       <li><h6>Database</h6></li>
       <ul>
         <li>SQL</li>
-        <li>MongoDb</li>
+        <li>MongoDB</li>
       </ul>
-      <li><h6>Android Development</h6></li>
+      <li><h6>Mobile Development</h6></li>
       <ul>
         <li>Java</li>
+        <li>Swift</li>
+        <li>Flutter</li>
+        <li>React Native (expo)</li>
+      </ul>
+      <li><h6>Serverless</h6></li>
+      <ul>
+        <li>AWS</li>
+        <ul>
+          <li>S3</li>
+          <li>RDS</li>
+          <li>DynamoDB</li>
+        </ul>
+      </ul>
+      <li><h6>Deployment Tool</h6></li>
+      <ul>
+        <li>Heroku</li>
+        <li>Netlify</li>
       </ul>
       <li><h6>Other</h6></li>
       <ul>
@@ -85,7 +104,7 @@ export const projectContent = [
       "CSS",
       "Javascript",
       "Bootstrap",
-      "Node",
+      "Node.js",
       "Express",
       "Mongoose"
     ],
@@ -157,7 +176,7 @@ export const projectContent = [
       </div>
     ),
     links: [
-      {name: "Github", link: "https://github.com/Wayl123/PlanetWine"},
+      {name: "Github", link: "https://github.com/Wayl123/PlanetWine"}
     ],
     codes: [
       "HTML",
@@ -184,6 +203,7 @@ export const projectContent = [
     ),
     links: [
       {name: "Github", link: "https://github.com/Wayl123/Portfolio"},
+      {name: "Deployed Site", link: "https://wayne-portfolio.netlify.app"}
     ],
     codes: [
       "HTML",
@@ -191,10 +211,75 @@ export const projectContent = [
       "Javascript",
       "Bootstrap",
       "ReactJS",
+      "Netlify",
       "Git"
     ],
     date: new Date(2020, 12-1, 18)
-  }
+  },
+  {
+    id: 5,
+    thumbnail: {src: "images/projects/PuzzleSite/thumbnail.PNG", caption: "Home page or the landing page. Gives a short introduction of myself."},
+    images: [],
+    name: "Puzzle Site",
+    desc: (
+      <div>
+        <p>A full stack site build on the concept of level base game.</p>
+        <p>Thought about adding a story but there are a lot of different design aspect that still need to be worked out</p>
+        <p>For now it has two levels and coded in the way that it is easy to add more.</p>
+      </div>
+    ),
+    links: [
+      {name: "Github", link: "https://github.com/Wayl123/Puzzle-Site"},
+    ],
+    codes: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "ReactJS",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "MongoDB Atlas",
+      "Git"
+    ],
+    date: new Date(2021, 4-1, 16)
+  },
+  {
+    id: 6,
+    thumbnail: {src: "images/projects/IndigenousPlantGo/thumbnail.PNG", caption: "Home page of the CMS portion of this project."},
+    images: [
+      {src: "images/projects/IndigenousPlantGo/img1.PNG", caption: "Login page of CMS."},
+      {src: "images/projects/IndigenousPlantGo/img2.PNG", caption: "Manage plants page of CMS."},
+      {src: "images/projects/IndigenousPlantGo/img3.PNG", caption: "New/Edit plant page of CMS."},
+    ],
+    name: "Indigenous Plant Go",
+    desc: (
+      <div>
+        <p>Industry project for BCIT indigenous initiatives.</p>
+        <p>Split into the CMS and the mobile app.</p>
+        <p>CMS is a full stack app for the admin to manage the database through api call to the backend.</p>
+        <p>The mobile app also calls from the backend to get those data but is locked from editing the database.</p>
+        <p>No link because it is industry project, but some screenshot</p>
+        <p>Likely to continue doing this as contract job.</p>
+      </div>
+    ),
+    links: [],
+    codes: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "ReactJS",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "MongoDB Atlas",
+      "AWS S3",
+      "Netlify",
+      "Heroku",
+      "Git/Github"
+    ],
+    date: new Date(2021, 5-1, 17)
+  },
 ]
 export const projectFilter = [
   {filterName: "Most Recent", filterContent: "1"},

@@ -11,11 +11,13 @@ export default class ProjectItem extends Component {
           </Link>
           <div className="card-body border-top text-center">
             <h5 className="card-title">{this.props.name}</h5>
-            <p className="card-text">
-              {this.props.codes.slice(0,3).map((code) =>
-                `${code}`
-              ) + "..."}
-            </p>
+            <div className="card-text">
+              {
+                this.props.codes.map((code, i) =>
+                  <span key={i}>{code}{i < this.props.codes.length-1 ? ', ' : ''}</span>
+                )
+              }
+            </div>
             <p className="card-text">
               {`Made on: ${this.props.date.getFullYear()}-${this.props.date.getMonth()+1}-${this.props.date.getDate()}`}
             </p>

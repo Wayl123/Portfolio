@@ -73,8 +73,9 @@ export default class Project extends Component {
 
   render() {
     const {sortedProject} = this.state;
-    const options = projectFilter.map((filter) => {
+    const options = projectFilter.map((filter, i) => {
       return {
+        key: {i},
         label: filter.filterName,
         value: filter.filterContent
       }
@@ -87,7 +88,7 @@ export default class Project extends Component {
             <h3 className="align-self-start p-3">Projects</h3>
             <div className="project-select">
               <Select
-                defaultValue={{ label: projectFilter[0].filterName }}
+                defaultValue={{label: projectFilter[0].filterName}}
                 options={options}
                 onChange={this.handleFliterChange.bind(this)}
               />
