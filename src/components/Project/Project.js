@@ -62,7 +62,7 @@ export default class Project extends Component {
         new Date(a.date).getTime()
     })
 
-    if (this.state.selectedFilter == "2") {
+    if (this.state.selectedFilter === "2") {
       sort.reverse();
     }
 

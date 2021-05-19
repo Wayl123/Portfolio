@@ -24,7 +24,7 @@ export default class ProjectDetail extends Component {
   getProject() {
     const selectId = this.props.match.params.id;
 
-    const project = projectContent.find(proj => proj.id == selectId);
+    const project = projectContent.find(proj => proj.id === selectId);
 
     this.setState({
       id: project.id,
