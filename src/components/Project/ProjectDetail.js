@@ -22,7 +22,7 @@ export default class ProjectDetail extends Component {
   }
 
   getProject() {
-    const selectId = this.props.match.params.id;
+    const selectId = Number(this.props.match.params.id);
 
     const project = projectContent.find(proj => proj.id === selectId);
 
