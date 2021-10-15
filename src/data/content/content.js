@@ -250,7 +250,7 @@ export const projectContent = [
     images: [
       {src: "images/projects/IndigenousPlantGo/img1.PNG", caption: "Login page of CMS."},
       {src: "images/projects/IndigenousPlantGo/img2.PNG", caption: "Manage plants page of CMS."},
-      {src: "images/projects/IndigenousPlantGo/img3.PNG", caption: "New/Edit plant page of CMS."},
+      {src: "images/projects/IndigenousPlantGo/img3.PNG", caption: "New/Edit plant page of CMS."}
     ],
     name: "Indigenous Plant Go",
     desc: (
